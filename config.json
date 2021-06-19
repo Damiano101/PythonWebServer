@@ -1,0 +1,61 @@
+{
+    "pages": [
+        {
+            "name": "Radiologia",
+            "corridor": "giallo",
+            "room": 57,
+            "times": [
+                { "start": "09:30", "end": "12:30" },
+                { "start": "13:00", "end": "17:00" }
+            ]
+        },
+        {
+            "name": "Odontoscopia",
+            "corridor": "blu",
+            "room": 2,
+            "times": [
+                { "start": "09:30", "end": "13:00" }
+            ]
+        },
+        {
+            "name": "Medico di base",
+            "corridor": "giallo",
+            "room": 16,
+            "times": [
+                { "start": "09:00", "end": "11:00" },
+                { "start": "13:00", "end": "15:00" },
+                { "start": "15:45", "end": "17:00" }
+            ]
+        },
+        {
+            "name": "Pronto soccorso",
+            "corridor": "rosso",
+            "room": 2,
+            "times": [
+                { "start": "00:00", "end": "24:00" }
+            ]
+        },
+        {
+            "name": "Ecografia",
+            "corridor": "blu",
+            "room": 25,
+            "times": [
+                { "start": "10:00", "end": "12:30" },
+                { "start": "14:00", "end": "16:00" }
+            ]
+        }
+    ],
+    "files": [
+        {
+            "name": "Licenza del sito web (PDF)",
+            "path": "./LICENSE.pdf"
+        }
+    ],
+    "authentication": {
+        "realm": "public-web",
+        "users": [
+            { "name": "Admin", "passwd_sha": "c1c224b03cd9bc7b6a86d77f5dace40191766c485cd55dc48caf9ac873335d6f" },
+            { "name": "user",  "passwd_sha": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8" }
+        ]
+    }
+}
